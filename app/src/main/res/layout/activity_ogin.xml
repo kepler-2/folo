@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kepler.brandde.Login">
+
+    <com.kepler.brandde.support.CustomTextView
+        android:id="@+id/tv_skip"
+        style="@style/TextStyle_Dark_SMALL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/default_selector_light"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="@string/skip" />
+    <!--<com.kepler.brandde.support.CustomTextView
+        android:id="@+id/tv_product_filter_close"
+        style="@style/TextStyle_Unicode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:background="@drawable/default_selector_light"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="\u2715" />-->
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:alpha="0"
+        android:padding="50dp"
+        android:src="@drawable/logo_white" />
+
+    <com.kepler.brandde.support.CustomTextView
+        style="@style/TextStyle_Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/follow_what_you" />
+
+    <com.kepler.brandde.support.CustomButton
+        android:id="@+id/b_cwf"
+        style="@style/TextStyle_Light_SMALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/messenger_button_blue_bg_selector"
+        android:clickable="true"
+        android:drawableLeft="@drawable/com_facebook_button_icon_white"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/coonect_fb" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:visibility="gone" />
+
+    <com.kepler.brandde.support.CustomButton
+        android:id="@+id/b_sign_up"
+        style="@style/TextStyle_Light_SMALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/black_btn_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/sign_up" />
+
+    <com.kepler.brandde.support.CustomTextView
+        android:id="@+id/tv_login"
+        style="@style/TextStyle_Light_SMALL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/default_selector_light"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="@string/have_an_acc" />
+
+    <com.kepler.brandde.support.CustomTextView
+        android:id="@+id/tv_policy"
+        style="@style/TextStyle_Light_SMALL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/default_selector_light"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="@string/term" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.kepler.brandde.FollowBrand">
+
+    <include layout="@layout/action_bar" />
+
+    <include layout="@layout/search_layout" />
+
+    <ListView
+        android:id="@+id/lv_follow_brand"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/white"
+        android:scrollbars="none"></ListView>
+
+    <com.kepler.brandde.support.CustomButton
+        android:id="@+id/b_proceed"
+        style="@style/TextStyle_Light_SMALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_btn_selector"
+        android:enabled="false"
+        android:text="@string/have_to_follow" />
+</LinearLayout>

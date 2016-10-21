@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_bg"
+    android:orientation="vertical"
+    tools:context="com.kepler.brandde.SelectTags">
+
+
+    <com.kepler.brandde.support.CustomTextView
+        style="@style/TextStyle_Dark_Bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/tell_your_interest"
+        android:textSize="@dimen/large_heading" />
+
+    <com.kepler.brandde.support.CustomTextView
+        style="@style/TextStyle_Dark_Bold_SMALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/choose_at_least" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@color/text_color_dark" />
+</LinearLayout>

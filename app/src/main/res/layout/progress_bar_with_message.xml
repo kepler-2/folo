@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/black_rectangle_shape_with_corner"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:indeterminate="true" />
+
+    <com.kepler.brandde.support.CustomTextView
+        style="@style/TextStyle_Light_SMALL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:maxLines="2"
+        android:text="ABC" />
+</LinearLayout>

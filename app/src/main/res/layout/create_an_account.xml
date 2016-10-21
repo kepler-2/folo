@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.kepler.brandde.support.CustomTextView
+            style="@style/TextStyle_Dark_Bold_LARGE"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="@string/create_an_acc"
+            android:textAllCaps="true" />
+
+        <com.kepler.brandde.support.CustomTextView
+            android:id="@+id/tv_product_filter_close"
+            style="@style/TextStyle_Unicode_Dark"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|right"
+            android:background="@drawable/default_selector_light"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="\u2715" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_color_dark" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <com.kepler.brandde.support.CustomEditText
+            android:id="@+id/input_name"
+            style="@style/TextStyle_Dark_SMALL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name"
+            android:inputType="textPersonName" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <com.kepler.brandde.support.CustomEditText
+            android:id="@+id/input_email"
+            style="@style/TextStyle_Dark_SMALL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <com.kepler.brandde.support.CustomEditText
+            android:id="@+id/input_password"
+            style="@style/TextStyle_Dark_SMALL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <com.kepler.brandde.support.CustomButton
+        style="@style/TextStyle_Light_SMALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/black_btn_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/_continue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/text_color_dark" />
+
+        <com.kepler.brandde.support.CustomTextView
+            style="@style/TextStyle_Dark_SMALL"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/text_color_dark" />
+    </LinearLayout>
+
+    <com.kepler.brandde.support.CustomButton
+        style="@style/TextStyle_Light_SMALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/messenger_button_blue_bg_selector"
+        android:clickable="true"
+        android:drawableLeft="@drawable/com_facebook_button_icon_white"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/coonect_fb" />
+</LinearLayout>

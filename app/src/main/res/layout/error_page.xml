@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/ll_error_page"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sad_cloud" />
+
+    <com.kepler.brandde.support.CustomTextView
+        android:id="@+id/tv_error_page_title"
+        style="@style/TextStyle_Light_Bold_SMALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:lines="1"
+        android:text="No Connection"
+        android:padding="5dp"
+        android:textColor="@color/cloud_color" />
+
+
+    <com.kepler.brandde.support.CustomTextView
+        android:id="@+id/tv_error_page_des"
+        style="@style/TextStyle_Light_SMALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="We could not establisha connection\nwith our servers. Please try again when\nyou are connected to internet."
+        android:textColor="@color/cloud_color" />
+
+    <com.kepler.brandde.support.CustomTextView
+        android:id="@+id/tv_error_page_retry"
+        style="@style/TextStyle_Light_Bold_SMALL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:clickable="true"
+        android:background="@drawable/black_btn_selector"
+        android:text="@string/retry" />
+</LinearLayout>

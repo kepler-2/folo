@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+        <item name="android:windowBackground">@drawable/blur</item>
+    </style>
+
+
+  <!--  <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
+    </style>-->
+
+    <!--light text-->
+    <style name="TextStyle_Light_Bold_SMALL">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_color_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle_Light_Bold">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/text_color_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle_Light_Bold_LARGE">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/text_color_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle_Light_SMALL">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+
+    <style name="TextStyle_Light">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+
+    <style name="TextStyle_Light_LARGE">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+
+
+    <!--dark text-->
+
+    <style name="TextStyle_Dark_Bold_SMALL">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle_Dark_Bold">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle_Dark_Bold_LARGE">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TextStyle_Dark">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+    <style name="TextStyle_Dark_LARGE">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+    <style name="TextStyle_Dark_SMALL">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+    <style name="TextStyle_Unicode_light">
+        <item name="android:textSize">@dimen/size_unicode_charector</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+
+    <style name="TextStyle_Unicode_Dark">
+        <item name="android:textSize">@dimen/size_unicode_charector</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/model_in</item>
+        <item name="android:windowExitAnimation">@anim/model_out</item>
+    </style>
+</resources>

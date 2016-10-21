@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.kepler.brandde.support.CustomTextView
+        android:id="@+id/tv_custom_dialog_title"
+        style="@style/TextStyle_Dark_Bold_SMALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Connection Error" />
+
+    <com.kepler.brandde.support.CustomTextView
+        android:id="@+id/tv_custom_dialog_message"
+        style="@style/TextStyle_Dark_SMALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/check_connection" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/text_color_dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.kepler.brandde.support.CustomTextView
+            android:id="@+id/tv_custom_dialog_cancel"
+            style="@style/TextStyle_Dark_Bold_SMALL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/default_selector_light"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/cancel" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_dark" />
+
+        <com.kepler.brandde.support.CustomTextView
+            android:id="@+id/tv_custom_dialog_sure"
+            style="@style/TextStyle_Dark_Bold_SMALL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/default_selector_light"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/sure" />
+
+
+    </LinearLayout>
+</LinearLayout>
